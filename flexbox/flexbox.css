@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* EJERCICIO 2 */
+.menu {
+    max-width: 400px;
+    margin: auto;
+}
+
+.menu li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d3d3d3;
+    padding: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.menu li span {
+    font-weight: bold;
+}
+
+.menu li a {
+    color: #000;
+    background-color: #e0e0e0;
+
+}
+
+
+/* EJERCICIO 3 */
+.conte{
+    display: flex;
+    background-color: #d3d3d3;
+    margin: auto; 
+    height: 400px;
+    width: 600px;
+    align-content: center;
+
+}
+.contenedor{
+    display: flex;
+    background-color: #b6b6b5;
+    align-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+/* EJERCICIO 4  */
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #b6b6b5;
+    height: 400px;
+    width: 50%;
+    overflow-y: auto;
+}
+.galeria img{
+    width: 250px;
+    height: 250px;
+}
+
+
+
+/* EJERCICIO 5 */
+.contenedor2{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    margin: 10px auto;
+    flex-direction: column;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+    background-color: #d8d8d5;
+    
+}
+
+.items{
+    display: flex;
+    width: 100%;
+    height: inherit;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item-1{
+    background-color: #b6b6b5;
+
+}
+.item-2{
+    background-color: gray;
+    width: 100%;
+}
+.item-3{
+    background-color: #b6b6b5;
+}
+
+/* EJERCICIO 6 */
+.contenedor3{
+    display: flex;
+    width: 900px;
+    height: 500px;
+    background-color: #93d9e9;
+    margin: 10px auto;
+    flex-direction: row;
+    padding: 90px;
+    justify-content: space-around;   
+}
+
+.tarjeta{
+    display: flex;
+    min-height: 480px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    width: 280px;
+    box-shadow: 2px 2px  gray;
+    overflow: hidden;
+}
+
+.tarjetaHeader{
+    display: flex;
+    background-color: salmon;
+    height:10%;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 10px; */
+}
+
+.tarjetaContenido{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tarjetaContenido p {
+    text-align: center;
+}
